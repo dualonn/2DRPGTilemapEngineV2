@@ -13,6 +13,9 @@ let ctx = canvas.getContext("2d")
 ctx.imageSmoothingEnabled = false
 ctx.imageRendering = "pixelated"
 
+canvas.style.height = "90%"
+canvas.width = canvas.height
+
 let debug_mode = {
     show_coords: true,
     show_grid: false,
